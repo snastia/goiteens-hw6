@@ -1,0 +1,68 @@
+:root{
+    --accent-color: #2196F3;
+    --primary-text-color: #212121;
+    --secondaty-text-color: #757575;
+    --thirdly-text-color: #FFFFFF;
+    --backgroind-color: #2F303A;
+}
+/* #2196F3  accent-color
+#757575 secondary-text-color
+#212121  primary-text-color
+#FFFFFF  thirdly-text-color */
+
+body{
+    font-family: "Roboto", sans-serif;
+    color: var(--primary-text-color)
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.logo{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+color: var(--primary-text-color);
+}
+.logo span{
+    color: var(--accent-color);
+}
+.nav-link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: var(--primary-text-color)
+}
+.nav-link:hover,
+.nav-link:focus,
+.contact-link:hover,
+.contact-link:focus{
+    color: var(--accent-color);
+}
+    
+.contact-link{
+    color: var(--secondaty-text-color);
+}
+.section{
+    background-color: var(--backgroind-color);
+}
+.hero-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    color: var(--thirdly-text-color)
+}
+
